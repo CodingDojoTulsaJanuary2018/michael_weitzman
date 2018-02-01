@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact Card</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="javascript/script.js">
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="forms">
+                <h1>New Contact Card:</h1>
+                <form class="" action="index.html" method="post">
+                    <label for="fname">First Name:</label>
+                    <input id="fname" type="text" name="fname">
+                    <label for="lname">Last Name:</label>
+                    <input id="lname" type="text" name="lname">
+                    <label for="description">Description:</label>
+                    <textarea type="text" name="description" placeholder="Enter description..."></textarea>
+                    <input id="submit" type="submit" value="Create Contact Card">
+                </form>
+                <ol>
+                    <li>Fill out the fields and click the button to add new contact.</li>
+                    <li>Click the card to toggle to the contact card description.</li>
+                    <li>Click the card again to toggle back.</li>
+                </ol>
+            </div><!--
+            --><div id="contacts"></div>
+        </div>
+    </body>
+</html>
